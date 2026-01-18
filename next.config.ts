@@ -1,16 +1,9 @@
-import type { NextConfig } from "next";
+/** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === 'production';
 
-const nextConfig: NextConfig = {
-  output: 'export',
-  trailingSlash: true,
-  images: {
-    unoptimized: true,
-  },
-  // For GitHub Pages deployment, set basePath to your repository name
-  // Example: if your repo is 'my-anniversary-site', set basePath: '/my-anniversary-site'
-  // Leave as '/' if deploying to username.github.io repository root
-  basePath: process.env.NODE_ENV === 'production' ? '/Wishing' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/Wishing' : '',
+module.exports = {
+  output: "export",
+  basePath: isProd ? "/Wishing" : "",
+  assetPrefix: isProd ? "/Wishing/" : "",
+  images: { unoptimized: true },
 };
-
-export default nextConfig;
