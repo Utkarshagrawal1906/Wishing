@@ -102,7 +102,7 @@ This project is configured for static export to work with GitHub Pages.
    ```
 
 4. **Update repository name (if needed):**
-   The `next.config.ts` is already configured with conditional basePath for "wishing" repository.
+   The `next.config.ts` is already configured with conditional basePath for "Wishing" repository.
    If your repository name is different, update the basePath in `next.config.ts`:
    ```typescript
    basePath: process.env.NODE_ENV === 'production' ? '/your-repo-name' : '',
