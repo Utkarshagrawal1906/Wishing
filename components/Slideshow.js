@@ -4,12 +4,12 @@ import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 
 const photos = [
-  "/wishing/1.jpg",
-  "/wishing/2.jpeg",
-  "/wishing/3.jpeg",
-  "/wishing/4.jpeg",
-  "/wishing/5.jpeg",
-  "/wishing/6.jpeg",
+  "/Wishing/1.jpg",
+  "/Wishing/2.jpeg",
+  "/Wishing/3.jpeg",
+  "/Wishing/4.jpeg",
+  "/Wishing/5.jpeg",
+  "/Wishing/6.jpeg",
 ];
 
 export default function Slideshow() {

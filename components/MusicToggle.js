@@ -49,7 +49,7 @@ export default function MusicToggle() {
   return (
     <>
       <audio ref={audioRef} loop>
-        <source src="/wishing/music.mp3" type="audio/mpeg" />
+        <source src="/Wishing/music.mp3" type="audio/mpeg" />
       </audio>
 
       {showPrompt && (

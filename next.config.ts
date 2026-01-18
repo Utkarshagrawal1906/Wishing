@@ -9,8 +9,8 @@ const nextConfig: NextConfig = {
   // For GitHub Pages deployment, set basePath to your repository name
   // Example: if your repo is 'my-anniversary-site', set basePath: '/my-anniversary-site'
   // Leave as '/' if deploying to username.github.io repository root
-  basePath: process.env.NODE_ENV === 'production' ? '/wishing' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/wishing' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/Wishing' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/Wishing' : '',
 };
 
 export default nextConfig;
