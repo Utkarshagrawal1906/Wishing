@@ -1,0 +1,8 @@
+1:"$Sreact.fragment"
+2:I[49809,["/Wishing/_next/static/chunks/a986fcedec3fda3f.js"],"default"]
+3:I[46102,["/Wishing/_next/static/chunks/a986fcedec3fda3f.js"],"default"]
+4:I[69716,["/Wishing/_next/static/chunks/a986fcedec3fda3f.js"],"default"]
+5:I[97367,["/Wishing/_next/static/chunks/2f236954d6a65e12.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+0:{"buildId":"thuxvEMC-HbjppYxkhA9w","rsc":["$","$1","c",{"children":[["$","main",null,{"style":{"textAlign":"center","padding":"20px","minHeight":"100vh","display":"flex","flexDirection":"column","justifyContent":"center","alignItems":"center","background":"linear-gradient(135deg, #667eea 0%, #764ba2 100%)","fontFamily":"'Poppins', sans-serif"},"children":[["$","h1",null,{"style":{"fontSize":"clamp(2rem, 8vw, 4rem)","marginBottom":"20px","color":"white","textShadow":"2px 2px 4px rgba(0,0,0,0.3)","fontWeight":"700"},"children":"💖 Happy Anniversary 💖"}],["$","$L2",null,{}],["$","$L3",null,{}],["$","$L4",null,{}],["$","div",null,{"style":{"marginTop":"30px","fontSize":"clamp(0.8rem, 3vw, 1.2rem)","color":"rgba(255,255,255,0.8)","maxWidth":"400px","lineHeight":"1.6"},"children":"Made with ❤️ for you"}]]}],[["$","script","script-0",{"src":"/Wishing/_next/static/chunks/a986fcedec3fda3f.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null
